@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function submit(){
+            var a = document.getElementById("input_two_pointers").value;
+            var b = document.getElementById("input_three_pointers").value;
+            var c = parseInt(a) * 2 + parseInt(b) * 3; 
+
+            document.getElementById("output_sum").innerHTML=c;
+        }
+    </script>
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <header>
+            <h1>Basketball points</h1>
+        </header>
+    
+        <label>two_pointers</label>
+        <input type="text" name="two_pointers" id="input_two_pointers" placeholder="How many two pointers?">
+        <br>
+        <label>three_pointers</label>
+        <input type="text" name="three_pointers" id="input_three_pointers" placeholder="How many three pointers?">
+        <br>
+        <button type="button" class="btn btn-info" onclick="submit()">submit</button><br><br>
+        <div class="screen" id="output_sum"></div>
+    
+    
+    </div> <!--End Container-->
+
+</body>
+</html>
