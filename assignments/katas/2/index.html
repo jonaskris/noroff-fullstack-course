@@ -7,6 +7,40 @@
     <title>Kata 2</title>
 </head>
 <body>
-    
+    <script>
+        const reducer = (acc, current) => acc + " - " + current;
+
+        function splitOnDoubleLetter(word) {
+            return word.split(/(.)\1/);
+            /*let array = [];
+
+            let lastChar = word.charAt(0);
+            let lastCharIndex = 0;
+            for(let charIndex = 0; charIndex < word.length; charIndex++) {
+                if(word.charAt(lastCharIndex) = word.charAt(charIndex)) {
+                    array.push(word.substring(lastCharIndex, charIndex));
+                    lastCharIndex = charIndex
+                }
+            }*/
+
+        }
+
+        function button_pressed() {
+            let input_word = document.getElementById("input_word").value;
+            console.log("input_word: " + input_word);
+            console.log(typeof input_word);
+
+            let split_word = splitOnDoubleLetter(input_word);
+            console.log("split_word: " + input_word);
+            console.log(typeof split_word);
+
+            document.getElementById("output_word").innerHTML = split_word.reduce(reducer, "");
+        }
+
+    </script>
+
+    <input type="text" placeholder="Enter a word!" id="input_word"> <br>
+    <button onclick="button_pressed()">Click here!</button> <br>
+    <p id="output_word"></p>
 </body>
 </html>
