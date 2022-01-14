@@ -8,31 +8,16 @@
 </head>
 <body>
     <script>
-        const reducer = (acc, current) => acc + " - " + current;
+        // Reduces an array of string elements to one string, and adds "-" between each element.
+        const reducer = (acc, current) => acc + (acc.length ? "-" : "") + current;
 
         function splitOnDoubleLetter(word) {
-            return word.split(/(.)\1/);
-            /*let array = [];
-
-            let lastChar = word.charAt(0);
-            let lastCharIndex = 0;
-            for(let charIndex = 0; charIndex < word.length; charIndex++) {
-                if(word.charAt(lastCharIndex) = word.charAt(charIndex)) {
-                    array.push(word.substring(lastCharIndex, charIndex));
-                    lastCharIndex = charIndex
-                }
-            }*/
-
+            return word.match(/.+?(\w)(?=\1)|.+/g);
         }
 
         function button_pressed() {
             let input_word = document.getElementById("input_word").value;
-            console.log("input_word: " + input_word);
-            console.log(typeof input_word);
-
             let split_word = splitOnDoubleLetter(input_word);
-            console.log("split_word: " + input_word);
-            console.log(typeof split_word);
 
             document.getElementById("output_word").innerHTML = split_word.reduce(reducer, "");
         }
