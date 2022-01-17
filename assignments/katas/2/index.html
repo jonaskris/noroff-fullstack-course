@@ -7,25 +7,9 @@
     <title>Kata 2</title>
 </head>
 <body>
-    <script>
-        // Reduces an array of string elements to one string, and adds "-" between each element.
-        const reducer = (acc, current) => acc + (acc.length ? "-" : "") + current;
-
-        function splitOnDoubleLetter(word) {
-            return word.match(/.+?(\w)(?=\1)|.+/g);
-        }
-
-        function button_pressed() {
-            let input_word = document.getElementById("input_word").value;
-            let split_word = splitOnDoubleLetter(input_word);
-
-            document.getElementById("output_word").innerHTML = split_word.reduce(reducer, "");
-        }
-
-    </script>
-
     <input type="text" placeholder="Enter a word!" id="input_word"> <br>
     <button onclick="button_pressed()">Click here!</button> <br>
     <p id="output_word"></p>
+    <script src="script.js"></script>
 </body>
 </html>
