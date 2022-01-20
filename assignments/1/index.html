@@ -16,8 +16,8 @@
                 <h2>Joe Banker</h2>
                 <label for="bank-balance-amount">Balance</label>
                 <p id="bank-balance-amount">0</p>
-                <label for="bank-loan-amount">Loan</label>
-                <p id="bank-loan-amount">0</p>
+                <label id="bank-loan-amount-label" for="bank-loan-amount" hidden>Loan</label>
+                <p id="bank-loan-amount" hidden>0</p>
                 <button onclick="getLoan()">Get a loan</button>
             </section>
             <!-- Bank end-->
@@ -27,7 +27,7 @@
                 <h2>Work</h2>
                 <label for="work-pay-amount">Pay</label>
                 <p id="work-pay-amount">0</p>
-                <button onclick="repayLoan()">Repay loan</button>
+                <button id="work-repay-loan-button" onclick="repayLoan()" hidden>Repay loan</button>
                 <button onclick="bank()">Bank</button>
                 <button onclick="work()">Work</button>
             </section>
@@ -50,7 +50,7 @@
 
             <!-- Laptop info -->
             <section class="laptop-info-section">
-                <img src="" alt="Image of laptop" id="laptop-image" />
+                <img src="" alt="Image of selected laptop" id="laptop-image" />
                 <div>
                     <h2 id="laptop-title"></h2>
                     <p id="laptop-description"></p>

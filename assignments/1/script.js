@@ -3,10 +3,13 @@ const api_url = "https://noroff-komputer-store-api.herokuapp.com/";
 
 // Elements related to work section
 const workPayElement = document.getElementById("work-pay-amount");
+const workRepayLoanButtonElement = document.getElementById("work-repay-loan-button");
 
 // Elements related to bank section
 const bankBalanceElement = document.getElementById("bank-balance-amount");
 const bankLoanElement = document.getElementById("bank-loan-amount");
+const bankLoanAmountElement = document.getElementById("bank-loan-amount")
+const bankLoanAmountLabelElement = document.getElementById("bank-loan-amount-label")
 
 // Elements related to laptop section
 const laptopSelectElement = document.getElementById("laptop-selection");
@@ -72,9 +75,12 @@ function getLoan() {
     console.error(
       "Cant loan if requested loan is more than double your balance, or if last loan has not been paid in full!"
     );
-  } else {
+  } else if(loan > 0) {
     outstandingLoan += loan;
     bankLoanElement.innerText = formatCurrency(outstandingLoan);
+    workRepayLoanButtonElement.hidden = false;
+    bankLoanAmountElement.hidden = false;
+    bankLoanAmountLabelElement.hidden = false;
   }
 }
 
@@ -106,6 +112,12 @@ function repayLoan() {
   bankLoanElement.innerText = formatCurrency(outstandingLoan);
   bankBalanceElement.innerText = formatCurrency(balance);
   workPayElement.innerText = formatCurrency(pay);
+
+  if(outstandingLoan === 0) {
+    workRepayLoanButtonElement.hidden = true; 
+    bankLoanAmountElement.hidden = true;
+    bankLoanAmountLabelElement.hidden = true;
+  }
 }
 
 // Called by work section "Bank" button
@@ -117,4 +129,10 @@ function bank() {
   bankLoanElement.innerText = formatCurrency(outstandingLoan);
   bankBalanceElement.innerText = formatCurrency(balance);
   workPayElement.innerText = formatCurrency(pay);
+
+  if(outstandingLoan === 0) {
+    workRepayLoanButtonElement.hidden = true;
+    bankLoanAmountElement.hidden = true;
+    bankLoanAmountLabelElement.hidden = true;
+  }
 }
