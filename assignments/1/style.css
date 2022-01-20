@@ -1,0 +1,45 @@
+body {
+    display: grid;
+}
+
+header {
+    background-color: rgb(50, 50, 50);
+    text-align: left;
+}
+
+h1 {
+    color: white;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    padding: 50px;
+    gap: 25px;
+}
+
+main section {
+    background-color: rgb(230, 230, 230);
+    border: 1px rgb(200, 200, 200);
+    padding: 0 10px 10px 10px;
+    border-radius: 15px;
+}
+
+main .laptop-info-section {
+    grid-column: 1 / 4;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.laptop-info-section img {
+    width: 150px;
+    height: 150px;
+    float: left;
+}

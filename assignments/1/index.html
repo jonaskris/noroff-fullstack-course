@@ -1,9 +1,65 @@
 <!DOCTYPE html>
-<html>
-<body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Komputer Store</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Komputer Store</h1>
+        </header>
+        <main>
+            <!-- Bank -->
+            <section class="bank-section">
+                <h2>Joe Banker</h2>
+                <label for="bank-balance-amount">Balance</label>
+                <p id="bank-balance-amount">0</p>
+                <label id="bank-outstanding-loan-amount-label" for="bank-outstanding-loan-amount" hidden>Loan</label>
+                <p id="bank-outstanding-loan-amount" hidden>0</p>
+                <button onclick="requestLoan()">Request a loan</button>
+            </section>
+            <!-- Bank end-->
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+            <!-- Work -->
+            <section class="work-section">
+                <h2>Work</h2>
+                <label for="work-pay-amount">Pay</label>
+                <p id="work-pay-amount">0</p>
+                <button id="work-repay-loan-button" onclick="repayLoan()" hidden>Repay loan</button>
+                <button onclick="bank()">Bank</button>
+                <button onclick="work()">Work</button>
+            </section>
+            <!-- Work end-->
 
-</body>
+            <!-- Laptop -->
+            <section class="laptop-section">
+                <h2>Laptops</h2>
+                <select
+                    title="laptops"
+                    id="laptop-selection"
+                    onchange="selectLaptop(this)"
+                ></select>
+                <article>
+                    <h3>Features:</h3>
+                    <p id="laptop-features"></p>
+                </article>
+            </section>
+            <!-- Laptop end-->
+
+            <!-- Laptop info -->
+            <section class="laptop-info-section">
+                <img src="" alt="Image of selected laptop" id="laptop-image" />
+                <div>
+                    <h2 id="laptop-title"></h2>
+                    <p id="laptop-description"></p>
+                </div>
+                <p id="laptop-price-amount">0</p>
+                <button onclick="buyLaptop()">BUY NOW</button>
+            </section>
+            <!-- Laptop info end-->
+        </main>
+        <script src="script.js"></script>
+    </body>
 </html>
