@@ -7,9 +7,8 @@ const workRepayLoanButtonElement = document.getElementById("work-repay-loan-butt
 
 // Elements related to bank section
 const bankBalanceElement = document.getElementById("bank-balance-amount");
-const bankLoanElement = document.getElementById("bank-loan-amount");
-const bankLoanAmountElement = document.getElementById("bank-loan-amount")
-const bankLoanAmountLabelElement = document.getElementById("bank-loan-amount-label")
+const bankOutstandingLoanAmountElement = document.getElementById("bank-outstanding-loan-amount")
+const bankOutstandingLoanAmountLabelElement = document.getElementById("bank-outstanding-loan-amount-label")
 
 // Elements related to laptop section
 const laptopSelectElement = document.getElementById("laptop-selection");
@@ -65,7 +64,7 @@ function formatCurrency(currency) {
 }
 
 // Called by bank section "Get a loan" button
-function getLoan() {
+function requestLoan() {
   var loan = window.prompt("Enter loan amount: ");
   loan = parseInt(loan);
 
@@ -77,10 +76,10 @@ function getLoan() {
     );
   } else if(loan > 0) {
     outstandingLoan += loan;
-    bankLoanElement.innerText = formatCurrency(outstandingLoan);
+    bankOutstandingLoanAmountElement.innerText = formatCurrency(outstandingLoan);
     workRepayLoanButtonElement.hidden = false;
-    bankLoanAmountElement.hidden = false;
-    bankLoanAmountLabelElement.hidden = false;
+    bankOutstandingLoanAmountElement.hidden = false;
+    bankOutstandingLoanAmountLabelElement.hidden = false;
   }
 }
 
@@ -109,14 +108,14 @@ function repayLoan() {
   outstandingLoan -= deducted;
   balance += nonDeducted;
 
-  bankLoanElement.innerText = formatCurrency(outstandingLoan);
+  bankOutstandingLoanAmountElement.innerText = formatCurrency(outstandingLoan);
   bankBalanceElement.innerText = formatCurrency(balance);
   workPayElement.innerText = formatCurrency(pay);
 
   if(outstandingLoan === 0) {
     workRepayLoanButtonElement.hidden = true; 
-    bankLoanAmountElement.hidden = true;
-    bankLoanAmountLabelElement.hidden = true;
+    bankOutstandingLoanAmountElement.hidden = true;
+    bankOutstandingLoanAmountLabelElement.hidden = true;
   }
 }
 
@@ -126,13 +125,13 @@ function bank() {
   let nonDeducted = pay - deducted;
   balance += nonDeducted;
   pay = 0;
-  bankLoanElement.innerText = formatCurrency(outstandingLoan);
+  bankOutstandingLoanAmountElement.innerText = formatCurrency(outstandingLoan);
   bankBalanceElement.innerText = formatCurrency(balance);
   workPayElement.innerText = formatCurrency(pay);
 
   if(outstandingLoan === 0) {
     workRepayLoanButtonElement.hidden = true;
-    bankLoanAmountElement.hidden = true;
-    bankLoanAmountLabelElement.hidden = true;
+    bankOutstandingLoanAmountElement.hidden = true;
+    bankOutstandingLoanAmountLabelElement.hidden = true;
   }
 }
