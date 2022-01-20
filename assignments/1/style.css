@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background-color:rgb(50, 50, 50);
+    background-color: rgb(50, 50, 50);
     text-align: left;
 }
 
@@ -41,5 +41,5 @@ main .laptop-info-section {
 .laptop-info-section img {
     width: 150px;
     height: 150px;
-    float:left;
+    float: left;
 }

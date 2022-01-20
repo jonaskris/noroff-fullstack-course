@@ -1,51 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Komputer Store</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Komputer Store</h1>
-    </header>
-    <main>
-        <section class="bank-section"> <!-- Bank -->
-            <h2>Joe Banker</h2>
-            <label for="balance-amount">Balance</label>
-            <p id="balance-amount">0</p>
-            <label for="loan-amount">Loan</label>
-            <p id="loan-amount">0</p>
-            <button onclick="getLoan()">Get a loan</button>
-        </section>
-        <section class="work-section"> <!-- Work -->
-            <h2>Work</h2>
-            <label for="pay-amount">Pay</label>
-            <p id="pay-amount">0</p>
-            <button onclick="repayLoan()">Repay loan</button>
-            <button onclick="bank()">Bank</button>
-            <button onclick="work()">Work</button>
-        </section>
-        <section class="laptop-section"> <!-- Laptop selection -->
-            <h2>Laptops</h2>
-            <select title="laptops" id="laptop-selection" onchange="selectLaptop(this)"></select>
-            <article>
-                <h3>Features:</h3>
-                <p id="laptop-features"></p>
-            </article>
-        </section>
-        <section class="laptop-info-section"> <!-- Laptop information -->
-            <img src="" alt="Image of laptop" id="laptop-image">
-            <div>
-                <h2 id="laptop-title"></h2>
-                <p id="laptop-description"></p>
-            </div>
-            <p id="laptop-price-amount">0</p>
-            <button onclick="buyLaptop()">BUY NOW</button>
-        </section>
-    </main>
-    <script src="script.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Komputer Store</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Komputer Store</h1>
+        </header>
+        <main>
+            <!-- Bank -->
+            <section class="bank-section">
+                <h2>Joe Banker</h2>
+                <label for="bank-balance-amount">Balance</label>
+                <p id="bank-balance-amount">0</p>
+                <label for="bank-loan-amount">Loan</label>
+                <p id="bank-loan-amount">0</p>
+                <button onclick="getLoan()">Get a loan</button>
+            </section>
+            <!-- Bank end-->
+
+            <!-- Work -->
+            <section class="work-section">
+                <h2>Work</h2>
+                <label for="work-pay-amount">Pay</label>
+                <p id="work-pay-amount">0</p>
+                <button onclick="repayLoan()">Repay loan</button>
+                <button onclick="bank()">Bank</button>
+                <button onclick="work()">Work</button>
+            </section>
+            <!-- Work end-->
+
+            <!-- Laptop -->
+            <section class="laptop-section">
+                <h2>Laptops</h2>
+                <select
+                    title="laptops"
+                    id="laptop-selection"
+                    onchange="selectLaptop(this)"
+                ></select>
+                <article>
+                    <h3>Features:</h3>
+                    <p id="laptop-features"></p>
+                </article>
+            </section>
+            <!-- Laptop end-->
+
+            <!-- Laptop info -->
+            <section class="laptop-info-section">
+                <img src="" alt="Image of laptop" id="laptop-image" />
+                <div>
+                    <h2 id="laptop-title"></h2>
+                    <p id="laptop-description"></p>
+                </div>
+                <p id="laptop-price-amount">0</p>
+                <button onclick="buyLaptop()">BUY NOW</button>
+            </section>
+            <!-- Laptop info end-->
+        </main>
+        <script src="script.js"></script>
+    </body>
 </html>
