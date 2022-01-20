@@ -123,8 +123,9 @@ function repayLoan() {
 function bank() {
   let deducted = Math.min(0.1 * pay, outstandingLoan);
   let nonDeducted = pay - deducted;
-  balance += nonDeducted;
   pay = 0;
+  outstandingLoan -= deducted;
+  balance += nonDeducted;
   bankOutstandingLoanAmountElement.innerText = formatCurrency(outstandingLoan);
   bankBalanceElement.innerText = formatCurrency(balance);
   workPayElement.innerText = formatCurrency(pay);
