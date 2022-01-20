@@ -56,11 +56,11 @@ function selectLaptop(selection) {
 }
 
 /*
-    Couldent find valid locale. Function currently does nothing. 
+    Couldent find valid locale, so i just appended " Kr" .
     attempt -> new Intl.NumberFormat('nb_NO', { style: "currency", currency: "NOK"}).format(price);
 */
 function formatCurrency(currency) {
-  return currency; 
+  return currency + " Kr"; 
 }
 
 // Called by bank section "Get a loan" button

@@ -43,3 +43,29 @@ main .laptop-info-section {
     height: 150px;
     float: left;
 }
+
+button {
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 5px;
+}
+
+#bank-request-loan-button {
+    background-color: rgb(75, 240, 161);
+}
+
+#work-bank-button {
+    background-color: rgb(237, 240, 70);
+}
+
+#work-work-button {
+    background-color: rgb(77, 111, 242);
+}
+
+#laptop-buy-button {
+    background-color: rgb(75, 200, 241);
+}
+
+#work-repay-loan-button {
+    background-color: rgb(240, 149, 75);
+}

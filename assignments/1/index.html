@@ -15,10 +15,10 @@
             <section class="bank-section">
                 <h2>Joe Banker</h2>
                 <label for="bank-balance-amount">Balance</label>
-                <p id="bank-balance-amount">0</p>
+                <p id="bank-balance-amount">0 Kr</p>
                 <label id="bank-outstanding-loan-amount-label" for="bank-outstanding-loan-amount" hidden>Loan</label>
-                <p id="bank-outstanding-loan-amount" hidden>0</p>
-                <button onclick="requestLoan()">Request a loan</button>
+                <p id="bank-outstanding-loan-amount" hidden>0 Kr</p>
+                <button id="bank-request-loan-button" onclick="requestLoan()">Request a loan</button>
             </section>
             <!-- Bank end-->
 
@@ -26,10 +26,10 @@
             <section class="work-section">
                 <h2>Work</h2>
                 <label for="work-pay-amount">Pay</label>
-                <p id="work-pay-amount">0</p>
+                <p id="work-pay-amount">0 Kr</p>
                 <button id="work-repay-loan-button" onclick="repayLoan()" hidden>Repay loan</button>
-                <button onclick="bank()">Bank</button>
-                <button onclick="work()">Work</button>
+                <button id="work-bank-button" onclick="bank()">Bank</button>
+                <button id="work-work-button" onclick="work()">Work</button>
             </section>
             <!-- Work end-->
 
@@ -55,8 +55,8 @@
                     <h2 id="laptop-title"></h2>
                     <p id="laptop-description"></p>
                 </div>
-                <p id="laptop-price-amount">0</p>
-                <button onclick="buyLaptop()">BUY NOW</button>
+                <p id="laptop-price-amount">0 Kr</p>
+                <button id="laptop-buy-button" onclick="buyLaptop()">BUY NOW</button>
             </section>
             <!-- Laptop info end-->
         </main>
