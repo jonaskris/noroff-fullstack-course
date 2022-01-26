@@ -9,8 +9,9 @@ This repository contains my solutions to assignments in the Noroff Fullstack Jav
 3. [The classic FizzBuzz](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/3)
 4. [Length of a nested array](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/4)
 5. [Choose your own adventure(Array boomerangs)](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/5)
-6. 
+6. [Game of Thrones: Character Titles](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/6)
 7. [How many shuffles?](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/7)
+8. [Array boomerangs](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/5)
 
 ## Usage instructions
 Each assignment and kata can be viewed through links in [Assignments](#assignments) list.
