@@ -3,7 +3,8 @@ This repository contains my solutions to assignments in the Noroff Fullstack Jav
 
 ## Assignments
 1. [Komputer store](https://jonaskris.github.io/noroff-fullstack-course/assignments/1)
-### Katas
+2. [Vue Trivia Game](https://jorgsaa.github.io/vue-trivia-game/) [\[Repository\]](https://github.com/jorgsaa/vue-trivia-game) 
+### Daily Katas
 1. [Basketball points](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/1)
 2. [Double letter word splitter](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/2)
 3. [The classic FizzBuzz](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/3)
