@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Kata 8</h1>
+        <p>
+            1. Fill the table with "X", "O", or "E" for empty. (case sensitive, use caps-lock)
+            <br>
+            2. Click "Check board" button evaluate who won or if its a draw.
+        </p>
+
+    </header>
+    <main>
+            <input type="text" id="row-0-col-0">
+            <input type="text" id="row-0-col-1">
+            <input type="text" id="row-0-col-2">
+
+            <input type="text" id="row-1-col-0">
+            <input type="text" id="row-1-col-1">
+            <input type="text" id="row-1-col-2">
+
+            <input type="text" id="row-2-col-0">
+            <input type="text" id="row-2-col-1">
+            <input type="text" id="row-2-col-2">
+
+            <button onclick="checkBoard()">Check board</button>
+            <p id="winner"></p>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<style>
+    main {
+        width: 90px;
+        height: 90px;
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+    
+    input {
+        width: 30px;
+        height: 30px;
+    }
+
+    button {
+        grid-row: 4 / 5;
+        grid-column: 1 / 4;
+    }
+
+    p {
+        grid-row: 5 / 6;
+        grid-column: 1 / 4;
+    }
+</style>

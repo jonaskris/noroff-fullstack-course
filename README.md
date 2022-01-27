@@ -12,6 +12,7 @@ This repository contains my solutions to assignments in the Noroff Fullstack Jav
 6. [Game of Thrones: Character Titles](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/6)
 7. [How many shuffles?](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/7)
 8. [Array boomerangs](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/5)
+9. [Tic Tac Toe](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/8)
 
 ## Usage instructions
 Each assignment and kata can be viewed through links in [Assignments](#assignments) list.
