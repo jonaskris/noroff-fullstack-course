@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kata 10</title>
+</head>
+<body>
+    <header>
+        <h1>Kata 10</h1>
+        <p>
+            1. Write a text you want to encrypt with Caesar's Cipher
+            <br>
+            2. Input number to shift each letter by
+            <br>
+            2. Click "Encrypt" to shift each letter from a-zA-Z by the specified number, "rotating" back
+            to aA when shifting from zZ.
+        </p>
+
+    </header>
+    <main>
+        <input type="text" id="input_text" placeholder="String to encrypt">
+        <input type="number" id="input_rotation_factor">
+        <button onclick="encrypt()">Encrypt</button>
+        <p id="output_text"></p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -14,7 +14,7 @@ This repository contains my solutions to assignments in the Noroff Fullstack Jav
 7. [How many shuffles?](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/7)
 8. [Array boomerangs](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/5)
 9. [Tic Tac Toe](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/9)
-
+10. [Caesar's Cipher](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/10)
 ## Usage instructions
 Each assignment and kata can be viewed through links in [Assignments](#assignments) list.
 
