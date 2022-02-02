@@ -1,4 +1,4 @@
-# Noroff Full-stack Course
+# Noroff Fullstack Course
 This repository contains my solutions to assignments given during the Noroff Fullstack Java course.
 
 ## Table of Contents
