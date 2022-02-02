@@ -15,6 +15,8 @@ This repository contains my solutions to assignments in the Noroff Fullstack Jav
 8. [Array boomerangs](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/5)
 9. [Tic Tac Toe](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/9)
 10. [Caesar's Cipher](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/10)
+11. [Choose your own adventure(Count the Countdown Sequences)](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/11)
+
 ## Usage instructions
 Each assignment and kata can be viewed through links in [Assignments](#assignments) list.
 
