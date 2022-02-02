@@ -2,7 +2,6 @@
 This repository contains my solutions to assignments given during the Noroff Fullstack Java course.
 
 ## Table of Contents
-***
    * [Assignments](#assignments)
      * [Weekly group assignments](#weekly-group-assignments)
      * [Daily Katas](#daily-katas)
@@ -10,7 +9,6 @@ This repository contains my solutions to assignments given during the Noroff Ful
    * [Course information](#course-information)
 
 ## Assignments
-***
 ### Weekly group assignments
 1. [Komputer store](https://jonaskris.github.io/noroff-fullstack-course/assignments/1)
 2. [Vue Trivia Game](https://jorgsaa.github.io/vue-trivia-game/) [\[Repository\]](https://github.com/jorgsaa/vue-trivia-game) 
@@ -30,13 +28,11 @@ This repository contains my solutions to assignments given during the Noroff Ful
 11. [Choose your own adventure(Count the Countdown Sequences)](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/11)
 
 ## Usage
-***
 Each assignment can be viewed through links in [Assignments](#assignments) list, which are hosted on GitHub pages
 
 This repository can also be cloned, and run with the Visual Studio Code extension "Live Server", or whichever alternative extension you prefer.
 
 ## Course information
-***
 The Noroff Fullstack Java course is an intensive fullstack course over a 3 month period: 
 
 1. The first month covers frontend development in JavaScript, where the students gain practical experience working with Node.js, Vue.js, React, AngularJS, API's, and web security.
@@ -50,5 +46,4 @@ The course assignments consist of daily kata's and weekly group assignments.
 In addition, the course provides the [AZ-900](https://docs.microsoft.com/en-us/learn/certifications/exams/az-900) certification.
 
 ## License
-***
 MIT © 2022 Jonas Kristoffersen
