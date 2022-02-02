@@ -1,8 +1,6 @@
 # Noroff Full-stack Course
 This repository contains my solutions to assignments given during the Noroff Fullstack Java course.
 
-<br />
-
 ## Table of Contents
 ***
    * [Assignments](#assignments)
@@ -10,8 +8,6 @@ This repository contains my solutions to assignments given during the Noroff Ful
      * [Daily Katas](#daily-katas)
    * [Usage](#usage)
    * [Course information](#course-information)
-
-<br />
 
 ## Assignments
 ***
@@ -33,15 +29,11 @@ This repository contains my solutions to assignments given during the Noroff Ful
 10. [Caesar's Cipher](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/10)
 11. [Choose your own adventure(Count the Countdown Sequences)](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/11)
 
-<br />
-
 ## Usage
 ***
 Each assignment can be viewed through links in [Assignments](#assignments) list, which are hosted on GitHub pages
 
 This repository can also be cloned, and run with the Visual Studio Code extension "Live Server", or whichever alternative extension you prefer.
-
-<br />
 
 ## Course information
 ***
@@ -56,8 +48,6 @@ The course assignments consist of daily kata's and weekly group assignments.
 2. Weekly group assignments provide practical experience with working in groups. The weekly group assignments are developed using the technologies covered in lectures that week.
 
 In addition, the course provides the [AZ-900](https://docs.microsoft.com/en-us/learn/certifications/exams/az-900) certification.
-
-<br />
 
 ## License
 ***
