@@ -26,9 +26,11 @@ This repository contains my solutions to assignments given during the Noroff Ful
 9. [Tic Tac Toe](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/9)
 10. [Caesar's Cipher](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/10)
 11. [Choose your own adventure(Count the Countdown Sequences)](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/11)
+12. 
+13. [Sum square difference](https://github.com/jonaskris/noroff-fullstack-course/tree/master/assignments/katas/13)
 
 ## Usage
-Each assignment can be viewed through links in [Assignments](#assignments) list, which are hosted on GitHub pages
+Each assignment can be viewed through links in [Assignments](#assignments) list, were most are hosted on GitHub pages
 
 This repository can also be cloned, and run with the Visual Studio Code extension "Live Server", or whichever alternative extension you prefer.
 
