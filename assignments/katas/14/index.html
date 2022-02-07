@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kata 14</title>
+</head>
+<body>
+    <header>
+        <h1>Kata 14</h1>
+        <p>
+            Assignment: What is the 10001st prime number?
+            <br><br>
+            Instructions:
+            <br>
+            1. Input either the index of which prime you want, or check if a number is prime.
+        </p>
+
+    </header>
+    <main>
+        <input type="number" id="input_n" placeholder="n">
+        <button onclick="findNthPrimeButtonHandler()">Find nth prime</button>
+        <input type="number" id="input_check_prime">
+        <button onclick="checkPrimeButtonHandler()">Check prime</button>
+        <p id="output_text"></p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
