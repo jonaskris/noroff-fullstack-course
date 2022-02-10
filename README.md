@@ -9,31 +9,37 @@ This repository contains my solutions to assignments given during the Noroff Ful
    * [Course information](#course-information)
 
 ## Assignments
-### Weekly group assignments
+### Weekly assignments
 1. [Komputer store](https://jonaskris.github.io/noroff-fullstack-course/assignments/1)
 2. [Vue Trivia Game](https://jorgsaa.github.io/vue-trivia-game/) [\[Repository\]](https://github.com/jorgsaa/vue-trivia-game) 
 3. [Lost in Translation](https://pucko321.github.io/lost-in-translation/#) [\[Repository\]](https://github.com/Pucko321/lost-in-translation) 
+4. [Pokémon Trainer](https://jorgsaa.github.io/pokemon-trainer) [\[Repository\]](https://github.com/Jorgsaa/pokemon-trainer)
 
 ### Daily Katas
-1. [Basketball points](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/1)
-2. [Double letter word splitter](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/2)
-3. [The classic FizzBuzz](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/3)
-4. [Length of a nested array](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/4)
-5. [Choose your own adventure(Array boomerangs)](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/5)
-6. [Game of Thrones: Character Titles](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/6)
-7. [How many shuffles?](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/7)
-8. [Array boomerangs](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/5)
-9. [Tic Tac Toe](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/9)
-10. [Caesar's Cipher](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/10)
-11. [Choose your own adventure(Count the Countdown Sequences)](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/11)
-12. [Anagrams](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/12)
-13. [Sum square difference](https://github.com/jonaskris/noroff-fullstack-course/tree/master/assignments/katas/13)
-14. [10 001st prime](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/14)
+#### Javascript (first month of course)
+1. [Basketball points](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/javascript/1)
+2. [Double letter word splitter](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/javascript/2)
+3. [The classic FizzBuzz](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/javascript/3)
+4. [Length of a nested array](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/javascript/4)
+5. [Choose your own adventure(Array boomerangs)](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/javascript/5)
+6. [Game of Thrones: Character Titles](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/javascript/6)
+7. [How many shuffles?](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/javascript/7)
+8. [Array boomerangs](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/javascript/5)
+9. [Tic Tac Toe](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/javascript/9)
+10. [Caesar's Cipher](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/javascript/10)
+11. [Choose your own adventure(Count the Countdown Sequences)](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/javascript/11)
+12. [Anagrams](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/javascript/12)
+13. [Sum square difference](https://github.com/jonaskris/noroff-fullstack-course/tree/master/assignments/katas/javascript/13)
+14. [10 001st prime](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/javascript/14)
+#### Java (second month of course)
 
 ## Usage
-Each assignment can be viewed through links in [Assignments](#assignments) list, were most are hosted on GitHub pages
+Most assignments can be viewed on GitHub Pages through links in [Assignments](#assignments) list.
+Group assignments not developed in this repository additionally include a link to the project repository.
 
-This repository can also be cloned, and run with the Visual Studio Code extension "Live Server", or whichever alternative extension you prefer.
+Kata's are organized based on language used. 
+Javascript kata's can be run with the Visual Studio Code extension "Live Server", or whichever alternative extension preferred.
+Java kata's can be run using IntelliJ Idea, or whichever IDE/extension preferred.
 
 ## Course information
 The Noroff Fullstack Java course is an intensive fullstack course over a 3 month period: 
