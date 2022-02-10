@@ -32,6 +32,7 @@ This repository contains my solutions to assignments given during the Noroff Ful
 13. [Sum square difference](https://github.com/jonaskris/noroff-fullstack-course/tree/master/assignments/katas/javascript/13)
 14. [10 001st prime](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/javascript/14)
 #### Java (second month of course)
+15. [Hitting the Jackpot](https://github.com/jonaskris/noroff-fullstack-course/tree/master/assignments/katas/java/15)
 
 ## Usage
 Most assignments can be viewed on GitHub Pages through links in [Assignments](#assignments) list.

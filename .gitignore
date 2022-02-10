@@ -22,6 +22,7 @@
 
 ### IntelliJ Idea ###
 .idea
+out/
 
 # Local History for Visual Studio Code
 .history/
