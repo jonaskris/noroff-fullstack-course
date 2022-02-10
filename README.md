@@ -26,7 +26,7 @@ This repository contains my solutions to assignments given during the Noroff Ful
 9. [Tic Tac Toe](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/9)
 10. [Caesar's Cipher](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/10)
 11. [Choose your own adventure(Count the Countdown Sequences)](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/11)
-12. 
+12. [Anagrams](https://jonaskris.github.io/noroff-fullstack-course/assignments/katas/12)
 13. [Sum square difference](https://github.com/jonaskris/noroff-fullstack-course/tree/master/assignments/katas/13)
 14. [10 001st prime](https://github.com/jonaskris/noroff-fullstack-course/tree/master/assignments/katas/14)
 
