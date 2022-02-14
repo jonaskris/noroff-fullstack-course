@@ -34,6 +34,7 @@ This repository contains my solutions to assignments given during the Noroff Ful
 #### Java (second month of course)
 15. [Hitting the Jackpot](https://github.com/jonaskris/noroff-fullstack-course/tree/master/assignments/katas/java/15)
 16. [IPv4 Validation](https://github.com/jonaskris/noroff-fullstack-course/tree/master/assignments/katas/java/16)
+17. [pigLatin 3.0](https://github.com/jonaskris/noroff-fullstack-course/tree/master/assignments/katas/java/17)
 
 ## Usage
 Most assignments can be viewed on GitHub Pages through links in [Assignments](#assignments) list.
