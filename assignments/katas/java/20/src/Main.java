@@ -5,6 +5,12 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/*
+*
+*       Assignment text: https://open.kattis.com/problems/aboveaverage
+*
+* */
+
 public class Main {
     public static float findPercentageAboveAverage(List<Integer> scores) {
         final float averageScore = scores.stream()
