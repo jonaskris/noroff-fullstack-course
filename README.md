@@ -38,7 +38,8 @@ This repository contains my solutions to assignments given during the Noroff Ful
 18. [Metaprogramming](https://github.com/jonaskris/noroff-fullstack-course/tree/master/assignments/katas/java/18)
 19. [Fair Play](https://github.com/jonaskris/noroff-fullstack-course/tree/master/assignments/katas/java/19)
 20. [Above Average](https://github.com/jonaskris/noroff-fullstack-course/tree/master/assignments/katas/java/20)
-
+21. [10 Kinds of People](https://github.com/jonaskris/noroff-fullstack-course/tree/master/assignments/katas/java/21)
+    
 ## Usage
 Most assignments can be viewed on GitHub Pages through links in [Assignments](#assignments) list.
 Group assignments not developed in this repository additionally include a link to the project repository.
