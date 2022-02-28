@@ -41,6 +41,7 @@ This repository contains my solutions to assignments given during the Noroff Ful
 21. [10 Kinds of People](https://github.com/jonaskris/noroff-fullstack-course/tree/master/assignments/katas/java/21)
 22. [Continuous Median](https://github.com/jonaskris/noroff-fullstack-course/tree/master/assignments/katas/java/22)
 23. [Hot Hike](https://github.com/jonaskris/noroff-fullstack-course/tree/master/assignments/katas/java/23)    
+25. [Prime Sieve](https://github.com/jonaskris/noroff-fullstack-course/tree/master/assignments/katas/java/25)    
     
 ## Usage
 Most assignments can be viewed on GitHub Pages through links in [Assignments](#assignments) list.
